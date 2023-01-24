@@ -47,12 +47,14 @@ ORDER BY emp_no, to_date DESC;
  ORDER BY "count" DESC;
  ```
  - If you look at the count in the retiring_titles table, we see that 50,844 of these retirees are in senior positions of "Senior Engineer", "Senior Staff", or "Manager".  This means 70% of the retirees are in leadership roles in the company.
-![retiring_titles]()
+ 
+![retiring_titles](https://github.com/ChallahBack83/Pewlett-Hackard-Analysis/blob/main/retiring_titles.png)
 
 - I then looked at employees who are 10 years younger, assuming these are the next generation to step up into leadership gaps left by the retirees. Joining employee information from the employees, dept_emp, and titles table, I created a mentor_eligible table with all the employee information so the company may begin training the next generation. There are a total of 1,549 employees eligible for the mentorship program.
+
 ![mentor_eligible]()
 
-![mentor_eligible_count]()
+![mentor_eligible_count](https://github.com/ChallahBack83/Pewlett-Hackard-Analysis/blob/main/total_mentor_eligible.png)
 
 ## Summary
  
@@ -63,8 +65,10 @@ There are a total of 72,458 roles that will need to be filled as the "silver tsu
 
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generations of Pewlett Hackard employees?
 
-Pewlett-Hackard has plenty of retirement-ready employees to  mentor the next generation considering there are only 1,549 people eligible fore the mentorship program.  However, assuming the company fills all of those 70,000 plus roles in the next 10 years, that means these 1500 employees will need to then mentor or lead approximately 46 employees each over the next few years before they themselves retire. This is not feasible, so Pewlett-Hackard should look to create a leadership onboarding program as they hire new people to fill these roles.
+Pewlett-Hackard has plenty of retirement-ready employees to  mentor the next generation considering there are only 1,549 people eligible fore the mentorship program.  However, assuming the company fills all of those 70,000 plus roles in the next 10 years, that means these 1500 employees will need to then mentor or lead approximately 46 employees each over the next few years before they themselves retire. This is not feasible, so Pewlett-Hackard should look to create a leadership onboarding program as they hire new people to fill these roles. 
 
-![mentor_eligible_titles]()
+We can do a comparison of the retiring and mentor program employees both by title and department.  Looking at these numbers we can prepare for where the biggest needs are, which department as the most leaving, and which as the most trainable mentors.
 
-![mentor_ret_dept]()
+![title comparison](https://github.com/ChallahBack83/Pewlett-Hackard-Analysis/blob/main/title_compare.png)
+
+![mentor_ret_dept](https://github.com/ChallahBack83/Pewlett-Hackard-Analysis/blob/main/dept_compare.png)
