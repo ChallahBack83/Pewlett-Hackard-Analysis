@@ -52,7 +52,7 @@ ORDER BY emp_no, to_date DESC;
 
 - I then looked at employees who are 10 years younger, assuming these are the next generation to step up into leadership gaps left by the retirees. Joining employee information from the employees, dept_emp, and titles table, I created a mentor_eligible table with all the employee information so the company may begin training the next generation. There are a total of 1,549 employees eligible for the mentorship program.
 
-![mentor_eligible]()
+![mentor_eligible](https://github.com/ChallahBack83/Pewlett-Hackard-Analysis/blob/main/mentor_eligible.png)
 
 ![mentor_eligible_count](https://github.com/ChallahBack83/Pewlett-Hackard-Analysis/blob/main/total_mentor_eligible.png)
 
